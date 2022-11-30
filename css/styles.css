@@ -62,7 +62,7 @@
      cursor: pointer;
      font-size: 14px;
      line-height: 1.14;
-     font-style: 700;
+     font-weight: 700;
      letter-spacing: 0.02em;
  }
  
@@ -227,7 +227,7 @@
      font-size: 18px;
      line-height: 2;
      letter-spacing: 0.06em;
-     font-style: 400;
+     font-style: normal;
  }
  
  .portfolio-site-rev {
