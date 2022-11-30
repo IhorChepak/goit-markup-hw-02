@@ -12,6 +12,7 @@
  body {
      font-family: "Roboto", sans-serif;
      background-color: var(--color-main);
+     font-weight: 500;
  }
  
  li {
@@ -25,6 +26,7 @@
  .logo {
      font-size: 26px;
      line-height: 1.19;
+     font-weight: 700;
      letter-spacing: 0.03em;
      font-family: 'Raleway';
      text-decoration: none;
@@ -38,9 +40,13 @@
      color: #000000;
  }
  
+ .list-nav {
+     color: var(--color-primary);
+ }
+ 
  .header-link {
      color: var(--color-primary);
-     font-style: 500;
+     font-weight: 500;
      font-size: 14px;
      line-height: 1.14;
      letter-spacing: 0.02em;
@@ -168,11 +174,11 @@
  address {
      color: var(--color-main);
      text-decoration: none;
-     font-style: normal;
      font-weight: 400;
      font-size: 14px;
      line-height: 1.71;
      letter-spacing: 0.03em;
+     font-style: normal;
  }
  
  .mail {
@@ -228,5 +234,5 @@
      font-size: 16px;
      line-height: 1.87;
      letter-spacing: 0.03em;
-     font-style: 400px;
+     font-weight: 400px;
  }
